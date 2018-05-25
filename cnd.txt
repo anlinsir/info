@@ -1,0 +1,60 @@
+<meta name="viewport" content="width=device-width,initial-scale=1.0"> //移动适配
+
+<script  src ='https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js'> </script> //点击复制
+		HTML：<div  id="bar">vgfhjbknlmnl</div>
+		<button class="btn" data-clipboard-action="copy || cut" data-clipboard-target="#bar">
+		    Cut to clipboard
+		</button>
+		js：new ClipboardJS('.btn')
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script> //axios库
+
+a.checked = true//checkbox状态更改
+
+addEventListener('input',function(){})//原生注册事件	
+
+<input id='input' list="browsers" name="browser">//  准确选择框
+	<datalist id="browsers">
+	 	<option value='text'>infomation<option>
+
+	</datalist>
+
+
+
+@media screen and (max-width: 813px) {/*小于813的样式*/}
+@media screen and (min-width: 813px) {/*大于813的样式*/}
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.1.0/echarts-en.common.js"></script> //e-chart cnd
+	<div id="main" style="width: 600px;height:400px;"></div>
+	  var myChart = echarts.init(document.getElementById('main'));
+	myChart.setOption({
+    series : [
+        {
+            name: '访问来源',
+            type: 'pie',
+            radius: '40%',
+            data:[
+                {value:10, name:'1'},
+                {value:10, name:'2'},
+                {value:10, name:'3'},
+                {value:10, name:'4'},
+                {value:10, name:'5'}
+            ]
+        }
+    ]
+})
+
+
+svg
+	<svg class="peity" height="20" width="80" >	
+		 <polyline points="0,6.743098842386464 2.962962962962963,6.827693677649153  5.925925925925926 5.118878005342832" style="fill:none;stroke:black;stroke-width:1" /> //折线
+	</svg>
+
+
+RunningMan 2018/5/25 星期五 9:56:34
+
+	https://primedice.com/ //网站
+	https://www.feixiaohao.com
+
+http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js //jq
